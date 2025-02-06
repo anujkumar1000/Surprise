@@ -35,7 +35,7 @@ const CelebrationPage = () => {
       </section>
 
       <div className="flex flex-wrap gap-10 justify-center mt-10">
-        <div className="animate__animated animate__slideInLeft animate__delay-1s w-full sm:w-1/2 md:w-1/4">
+        <div className="animate__animated animate__slideInLeft animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
             src="/images/ananya1.jpg"
             alt="Ananya 1"
@@ -45,7 +45,7 @@ const CelebrationPage = () => {
           />
         </div>
 
-        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4">
+        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
             src="/images/ananya2.jpg"
             alt="Ananya 2"
@@ -54,7 +54,7 @@ const CelebrationPage = () => {
             className="rounded-full border-4 border-[#feb47b]"
           />
         </div>
-        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4">
+        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
             src="/images/ananya3.jpg"
             alt="Ananya 3"
@@ -63,7 +63,7 @@ const CelebrationPage = () => {
             className="rounded-full border-4 border-[#feb47b]"
           />
         </div>
-        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4">
+        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
             src="/images/ananya4.jpg"
             alt="Ananya 4"
