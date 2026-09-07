@@ -37,39 +37,40 @@ const CelebrationPage = () => {
       <div className="flex flex-wrap gap-10 justify-center mt-10">
         <div className="animate__animated animate__slideInLeft animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
-            src="/images/ananya1.jpg"
+            src="/images/pri1.jpg"
             alt="Ananya 1"
             width={300}
             height={300}
-            className="rounded-full border-4 border-[#ff7e5f]"
+            className=" photo-earth rounded-full border-4 border-[#ff7e5f]"
           />
         </div>
 
         <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
-            src="/images/ananya2.jpg"
+            src="/images/pri2.jpg"
             alt="Ananya 2"
             width={300}
             height={300}
-            className="rounded-full border-4 border-[#feb47b]"
+            className="-rotate-90 rounded-full border-4 border-[#feb47b]"
           />
         </div>
         <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
           <Image
-            src="/images/ananya3.jpg"
+            src="/images/pri3.jpg"
             alt="Ananya 3"
             width={300}
             height={300}
-            className="rounded-full border-4 border-[#feb47b]"
+            className=" photo-earth rounded-full border-4 border-[#feb47b]"
           />
         </div>
-        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center">
+        <div className="animate__animated animate__slideInRight animate__delay-1s w-full sm:w-1/2 md:w-1/4 flex justify-center -mt-6">
+          {" "}
           <Image
-            src="/images/ananya4.jpg"
+            src="/images/pri4.jpg"
             alt="Ananya 4"
             width={300}
             height={300}
-            className="rounded-full border-4 border-[#feb47b]"
+            className=" -rotate-90 rounded-full border-4 border-[#feb47b]"
           />
         </div>
       </div>

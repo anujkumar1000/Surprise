@@ -123,6 +123,20 @@ body {
   background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.9));
 }
 
+.photo-earth {
+  animation: earthRotate 12s linear infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes earthRotate {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
 
 @layer utilities {
   .gradient {

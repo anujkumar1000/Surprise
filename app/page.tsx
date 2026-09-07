@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import "animate.css";
 import Confetti from "react-confetti";
 import { useWindowSize } from "react-use";
-import "../app/globals.css"; // Make sure this is importing the correct global styles
 
 const Home = () => {
   const [isConfettiVisible, setIsConfettiVisible] = useState(false);
@@ -37,7 +36,7 @@ const Home = () => {
 
       <section className="animate__animated animate__fadeIn animate__delay-1s">
         <h1 className="text-5xl sm:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ff7e5f] to-[#feb47b] py-4 animate__animated animate__slideInLeft !gradient-title">
-          🎂 Wishing You a very Wonderful Birthday, Ananya! 🎂
+          🎂 Wishing You a very Wonderful Birthday, Priyanka! 🎂
         </h1>
         <p className="text-xl sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-purple-600 mt-16 animate__animated animate__slideInRight animate__delay-1s">
           Wishing you a day filled with love, laughter, and all the joy your
